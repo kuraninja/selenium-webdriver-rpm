@@ -4,7 +4,7 @@
 %global version_without_build %(echo %{version} | awk -F \. {'print $1 "." $2'})
 
 Name:      selenium
-Version:   2.45.0
+Version:   2.53.1
 Release:   2%{?dist}
 Summary:   Selenium Webdriver Server
 
